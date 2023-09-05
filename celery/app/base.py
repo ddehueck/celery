@@ -720,7 +720,6 @@ class Celery:
             name (str): Name of task to call (e.g., `"tasks.add"`).
             result_cls (AsyncResult): Specify custom result class.
         """
-        print("\n-----------------\nSENDING TASK\n-----------------\n")
         parent = have_parent = None
         amqp = self.amqp
         task_id = task_id or uuid()
