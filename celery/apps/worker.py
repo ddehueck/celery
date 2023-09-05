@@ -50,6 +50,8 @@ ARTLINES = [
 ]
 
 BANNER = """\
+DEVINS VERSIONNNN
+
 {hostname} v{version}
 
 {platform} {timestamp}
